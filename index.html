@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
@@ -7,18 +6,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
-
-    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
-
-    <!-- Custom styles for this template -->
+    <title>Fussy Foodie</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="css/styles.css" rel="stylesheet">
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+<div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-website-name" href="#"> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,10 +29,25 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Another Link</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Another Link</a>
           </li>
-        </ul>
+          </ul>
       </div>
     </nav>
+</div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Bootstrap Tutorial</h1>
+      <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    </div>
+    <p>This is some text.</p>
+    <p>This is another text.</p>
+  </div>
 
     <main role="main" class="container">
 
@@ -91,30 +102,39 @@
   </div>
 </div>
 
-<!-- Button trigger modal -->
-<button type="button"class="custom-button1" data-toggle="modal" data-target="#exampleModal">
-  <h3> Button numbero uno </h3>
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 1</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        hello :)
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
   </div>
+</div>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+  </div>
+</div>
+
+
+
 </div>
       <!-- Add another row here -->
     </main><!-- /.container -->
