@@ -1,3 +1,15 @@
+img { width: 400px; // Set the width of the image to 400px.
+      height: 300px; // Set the height of the image to 300px.
+      object-fit: cover; // Make the image cover the entire height and width of the grid element we get from Bootstrap
+      padding: 15px
+    }
+
+
+
+
+
+
+
 body{
   margin: 0;
   padding: 0;
