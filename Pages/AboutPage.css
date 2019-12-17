@@ -1,13 +1,40 @@
-img { width: 400px; // Set the width of the image to 400px.
-      height: 300px; // Set the height of the image to 300px.
-      object-fit: cover; // Make the image cover the entire height and width of the grid element we get from Bootstrap
-      padding: 15px
+img {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+  padding: 15px
     }
-
-
-
-
-
+    .jumbotron {
+      background-color: white;
+    }
+    .display-4 {
+      color: #F18627;
+    }
+    .lead {
+      color: #A65B1A
+    }
+    #tag-line {
+      color: #A65B1A
+    }
+    .btn {
+      background-color: white;
+      color: #F18627;
+      border: #F18627;
+      text-align: center;
+    }
+    #button-to-mission {
+      background-color: #59310D;
+      color: white;
+    }
+    h5 {
+      color: #59310D;
+    }
+    h6 {
+      color: #59310D;
+    }
+    #nav-bar-color {
+      color: red;
+    }
 
 
 body{

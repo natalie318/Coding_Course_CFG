@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../index.html"> Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Our Mission</a>
@@ -38,12 +38,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Merchandise</a>
             </li>
-            <div class="search-container">
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fas fa-search"></i></button>
-              </form>
-            </div>
+            <li>
+              <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </li>
           </ul>
           <ul class="navbar-nav navbar-right">
             <li class="nav-item">
@@ -73,18 +75,6 @@
       <i class="fa fa-bars" style="font-size:25px;color:white;"></i>
     </ul>
 
-    <div class="container">
-      <div class="box">
-        <div class="row">
-          <div class="col-lg-12">
-          </div>
-          <div class="col-md-6">
-            <br>
-            <br>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="box">
       <div class="row text-center">
@@ -97,20 +87,20 @@
 
 
         <div class="col-md-4 text-center">
-          <img src="D:\Users\Student\Desktop\Coding_Course_CFG\images\RabeeahA.jpeg" class="img-responsive">
+          <img src="../images/RabeeahA.jpeg" class="img-responsive">
           <h3>Rabeeah Ayyaz</h3>
           <h4>Developer</h4>
           <h6>Growing up, it was either eat what you're given or go to bed hungry! Due to the lack of variety and options, there were certain foods I never managed to take a liking to. If anything, I've learnt that there is nothing wrong with
             disliking certain foods, you just need to know what you DO like and take it from there!</h6>
         </div>
         <div class="col-md-4 text-center">
-          <img src="D:\Users\Student\Desktop\Coding_Course_CFG\images\Natalie Ige.jpg" class="img-responsive">
+          <img src="../images/Natalie Ige.jpg" class="img-responsive">
           <h3>Natalie Ige</h3>
           <h4>Developer</h4>
           <h5>If you're thinking where you might have seen me before it's definitely at AND Digital or around Leeds city centre! I like eating, going to the movies, and just generally relaxing like every other normal person! </h5>
         </div>
         <div class="col-md-4 text-center">
-          <img src="D:\Users\Student\Desktop\Coding_Course_CFG\images\EllaSmith.jpg" class="img-responsive">
+          <img src="../images/EllaSmith.jpg" class="img-responsive">
           <h3>Ella Smith</h3>
           <h4>Developer</h4>
           <h5>I'm a 2nd year BA (Hons) Business and Management student at Leeds Beckett University. My dream job is to be a Business Consultant and an expert in my field. I like to watch weird and wonderful documentaries so I am full of random facts!
@@ -122,8 +112,8 @@
 
 
 
-      <title>Contact Form Design</title>
-      <link rel="stylesheet" type="text/css" href="Contact Form.css">
+    <title>Contact Form Design</title>
+    <link rel="stylesheet" type="text/css" href="Contact Form.css">
 
 
     <body>
@@ -142,80 +132,86 @@
 
           <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
 
-          <input type="submit" class="form-control submit" value="SEND MESSAGE" </form> </div> </body> </html>
-
-          <br></br>
+          <input type="submit" class="form-control submit" value="SEND MESSAGE" </form> </div> </body> </html> <br></br>
 
           <h1>Where To Find Us</h1>
 
-        <div id="googleMap" style="width:100%;height:400px;"></div>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=ls11%205wd&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 600px;
+              }
 
-        <script>
-        function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(53.7916838,-1.5545517,17),
-          zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
-
-        <script src="https://www.google.co.uk/maps/place/AND+Digital/@53.7916838,-1.5545517,17z/data=!3m1!4b1!4m5!3m4!1s0x48795f42160e3afd:0xae98b60d74a14d89!8m2!3d53.7916838!4d-1.552363"></script>
-
-
-
-      <footer class="footer">
-        <div class="jumbotron">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-3 col-md-3">
-                <h5> Fussy Foodie </h5>
-                <address>
-                  <p> The World </p>
-                  <p> The Universe </p>
-              </div>
-              <div class="col-sm-3 col-md-3">
-                <h5> Info</h5>
-                <a href="#"> Home </a><br>
-                <a href="#"> Terms and Conditions </a> <br>
-                <a href="#"> Our Mission </a> <br>
-                <a href="#"> Privacy Policy </a> <br>
-                <a href="#"> Sitemap </a> <br>
-                <br>
-              </div>
-              <div class="col-sm-3 col-md-3">
-                <h5> Contact</h5>
-                <a href="#">About Us and Contact</a><br>
-                <a href="#"> Careers </a> <br>
-
-              </div>
-
-              <div class="col-sm-3 col-md-3">
-                <h5> Socials</h5>
-                <i class="fab fa-facebook-f"></i> facebook<br>
-                <i class="fab fa-twitter"></i> twitter<br>
-                <i class="fab fa-instagram"></i> instagram<br>
-              </div>
-
-              <br>
-              <br>
-              <br>
-              <br>
-
-              <div class="row">
-                <div class="copyright">
-                  <p>
-                    <center>&copy; Fussy Foodie - All Rights Reserved Designed by NRE</center>
-                  </p>
-                </div>
-              </div>
-            </div>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 600px;
+              }
+            </style>
           </div>
 
+          <br></br>
 
 
-        </div>
-  </div>
+
+          <footer class="footer">
+            <div class="jumbotron">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-3 col-md-3">
+                    <h5> Fussy Foodie </h5>
+                    <address>
+                      <p> The World </p>
+                      <p> The Universe </p>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <h5> Info</h5>
+                    <a href="#"> Home </a><br>
+                    <a href="#"> Terms and Conditions </a> <br>
+                    <a href="#"> Our Mission </a> <br>
+                    <a href="#"> Privacy Policy </a> <br>
+                    <a href="#"> Sitemap </a> <br>
+                    <br>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <h5> Contact</h5>
+                    <a href="#">About Us and Contact</a><br>
+                    <a href="#"> Careers </a> <br>
+
+                  </div>
+
+                  <div class="col-sm-3 col-md-3">
+                    <h5> Socials</h5>
+                    <i class="fab fa-facebook-f"></i> facebook<br>
+                    <i class="fab fa-twitter"></i> twitter<br>
+                    <i class="fab fa-instagram"></i> instagram<br>
+                  </div>
+
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+                  <div class="row">
+                    <div class="copyright">
+                      <p>
+                        <center>&copy; Fussy Foodie - All Rights Reserved Designed by NRE</center>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+      </div>
   </div>
   </div>
   </div>
