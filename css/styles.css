@@ -1,12 +1,37 @@
 body {
   padding-top: 5rem;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
+body {
+  background-color: #F18627;
+}
+.jumbotron {
+  background-color: white;
+}
+.display-4 {
+  color: #F18627;
+}
+.lead {
+  color: #A65B1A
+}
+#tag-line {
+  color: #A65B1A
+}
+.btn {
+  background-color: white;
+  color: #F18627;
+  border: #F18627;
   text-align: center;
 }
-
-.custom-button1 {
-  color:red;
-  background-color: blue;
+#button-to-mission {
+  background-color: #59310D;
+  color: white;
+}
+h5 {
+  color: #59310D;
+}
+h6 {
+  color: #59310D;
+}
+#nav-bar-color {
+  color: red;
 }
