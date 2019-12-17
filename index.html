@@ -15,6 +15,7 @@
 <body>
   <!-- /.navbar -->
   <div>
+    <div id="nav-bar-color">
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <a class="navbar-website-name" href="#">
         <img src="images/Ff-logo1.png" alt="Fussy Foody Logo" style="width:100px;height:80px;border:0;">
@@ -31,7 +32,7 @@
               <a class="nav-link" href="#">Our Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">All recipes</a>
+              <a class="nav-link" href="./Pages/recipes.html">All recipes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Occasion</a>
@@ -57,15 +58,16 @@
         </div>
     </nav>
   </div>
+</div>
 
 <!-- /.jumbotron with name -->
   <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron" id="jumbotron1">
       <h1 class="display-4">Fussy Foodie</h1>
       <p class="lead">You can still be a foodie without liking all foods!</p>
-      <hr class="my-4">
-      <p>Fussy Foodie makes it easy to find recipes you love with the ingredients you love too!</p>
-      <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Read more about our Mission</a>
+      <hr class="my-4" id="tag-line-hr">
+      <p id="tag-line">Fussy Foodie makes it easy to find recipes you love with the ingredients you love too!</p>
+      <a href="#" class="btn btn-secondary btn-sm active" class="button" role="button" aria-pressed="true" id="button-to-mission">Read more about our Mission</a>
     </div>
   </div>
 
@@ -73,25 +75,25 @@
   <div class="container">
     <div class="jumbotron">
       <div class="row">
-        <div class="col-sm-5">
-          <div class="card">
+        <div class="col-sm-6">
+          <div class="card" center>
             <div class="card-body">
               <h5 class="card-title">Likes</h5>
               <p class="card-text">These are the foods you have specifically told us you like. Don't worry, you don't have to tell us every food that you like, but we will base some of the recipes you see on these foods that you really like. In some
-                cases they could be the star of the show and in others, the perfect accoumpanyment. We will also show you recipes whic include other ingredients, as long as you haven't said they are a dislike, allergen or not included within your
+                cases they could be the star of the show and in others, the perfect accoumpanyment. <br> <br> We will also show you recipes which include other ingredients, as long as you haven't said they are a dislike, allergen or not included within your
                 diet.</p>
               <a href="#" class="btn btn-secondary">View / Edit Likes</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Dislikes, Allergens and Diet</h5>
               <p class="card-text"> Dislikes are the foods that you have said that you do not like. As such the recipes that we recommend will not include these items. If we find a recipe that you might like which includes one of these items, we will
-                provide a substitution or make you aware that it can be removed from the recipe.</p><br>
+                provide a substitution or make you aware that it can be removed from the recipe.</p>
               <p class="card-text">If you have provided your allegen information or the type of diet you chose to follow, we will not include these ingredients in your recipes.</p>
-              <a href="#" class="btn btn-secondary">View / Edit Dislikes</a>
+              <a href="#" class="btn btn-warning">View / Edit Dislikes</a>
             </div>
           </div>
         </div>
@@ -99,7 +101,7 @@
       <br>
       <br>
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-12" >
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Wildcard</h5>
@@ -107,9 +109,9 @@
                 Make sure to update us on socials if you find a new found love for one of our Wildcard ingredients or Recipes!</p> <br>
                 <p><i> Use the hashtag #fussyfoodiewildcard if you use one of our wildcard recipes </i></p>
               <h6 class="card-text">This weeks Wildcard is... Samphire</h6>
-              <img scr="images/Samphire-wildcard.jpg" alt+"Samphire" height="200" width="300">
+              <img src="images/samphire-wc.jpg" alt+"Samphire" height="200" width="300">
               <p class="card-text">Samphire is a plant that grows in salt water and has a distrinctly crisp and salty flavour. Samphire is rich in vitamins and minerals. </p>
-              <a href="#" class="btn btn-secondary">View Wildcard Recipes</a>
+              <a href="#" class="btn btn-warning">View Wildcard Recipes</a>
             </div>
           </div>
         </div>
@@ -121,8 +123,9 @@
   <!-- /.jumbotron with carousel recipe cards -->
   <div class="jumbotron">
     <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title">Popular recipes this week</h5>
+
+
 
     </div>
 
@@ -136,12 +139,12 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-12 col-lg-4">
-                      <div class="card" style="width: 300px;margin: auto;">
-                        <img src="images/a.jpg" class="card-img-top">
+                      <div class="card" style="width: 300px;">
+                        <img src="images/lamb-tagine.jpg" class="card-img-top">
                         <div class="card-body">
-                          <h4 class="card-title">Why you should use skin masks ?</h4>
-                          <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                          <button type="button" class="btn btn-warning">Read More</button>
+                          <h4 class="card-title">Lamb Tagine</h4>
+                          <p class="card-text">Tantelize your tastebuds with this flavoursome Lamb Tagine. Not too hot, not too mild just vastly aromatic. Perfect if you have other things to do. This dish can be prepared in advanced and put in the oven to allow time to socialize! Dress with pomegranate seeds, fresh herbs, dried fruit and chopped nuts and serve with giant cous cous to take this dish from stew to colourful creation!</p>
+                          <button type="button" class="btn btn-warning">Full recipe</button>
 
                         </div>
 
@@ -150,11 +153,11 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                       <div class="card" style="width: 300px;">
-                        <img src="images/b.jpg" class="card-img-top">
+                        <img src="images/Vegan-Masaman-Curry.jpg" class="card-img-top">
                         <div class="card-body">
-                          <h4 class="card-title">Why you should use skin masks ?</h4>
-                          <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                          <button type="button" class="btn btn-warning">Read More</button>
+                          <h4 class="card-title">Vegan Masaman Curry</h4>
+                          <p class="card-text"> Add in any veg you would like for this Vegan Masaman Curry. Not meat doesn't mean no protein - with peanuts, chickpeas and peas. You can also switch things up by blending the curry and turning this into a Vegetable Masaman Soup. You favourite combination is switching the rice for adding sweet potato to the curry.</p>
+                          <button type="button" class="btn btn-warning">Full recipe</button>
 
                         </div>
 
@@ -163,11 +166,11 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                       <div class="card" style="width: 300px;">
-                        <img src="images/c.jpg" class="card-img-top">
+                        <img src="images/chicken-pho.jpg" class="card-img-top">
                         <div class="card-body">
-                          <h4 class="card-title">Why you should use skin masks ?</h4>
-                          <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                          <button type="button" class="btn btn-warning">Read More</button>
+                          <h4 class="card-title"> Chicken Pho</h4>
+                          <p class="card-text"> Great for the winter, this Chicken Pho is filled with fresh ingredients and lots of liquid. You can decide whether to make this the easy or hard way by either making or buying chciken bone broth. If you have leftover chicken from the Sunday Roast use it to make a broth or buy some from your local supermarket or butchers.</p>
+                          <button type="button" class="btn btn-warning">Full recipe</button>
 
                         </div>
 
@@ -185,12 +188,12 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-12 col-lg-4">
-                      <div class="card" style="width: 300px;margin: auto;">
-                        <img src="images/d.jpg" class="card-img-top">
+                      <div class="card" style="width: 300px;">
+                        <img src="images/mush-spinach-lasagne.jpg" class="card-img-top">
                         <div class="card-body">
-                          <h4 class="card-title">Why you should use skin masks ?</h4>
-                          <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                          <button type="button" class="btn btn-warning">Read More</button>
+                          <h4 class="card-title">Mushroom and Spinach Lasagne</h4>
+                          <p class="card-text">This creamy creation is a great use for spinach which is starting to whilt in the fridge. Make the dish healthier by using half the pasta and peeled courgette slices. We love to pair this recipe with a large green salad with a vinigarette to create a sharp contrast with the creamy cheesy goodness.</p>
+                          <button type="button" class="btn btn-warning">Full recipe</button>
 
                         </div>
 
@@ -199,11 +202,11 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                       <div class="card" style="width: 300px;">
-                        <img src="images/e.jpg" class="card-img-top">
+                        <img src="images/lemon-cake.jpg" class="card-img-top">
                         <div class="card-body">
-                          <h4 class="card-title">Why you should use skin masks ?</h4>
-                          <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                          <button type="button" class="btn btn-warning">Read More</button>
+                          <h4 class="card-title">Lemon Drizzle Cake</h4>
+                          <p class="card-text">An absolute crowd pleaser! This cake will win your work bake off and win round your in-laws. With the fresh citrus flavour, this cake is wonderfully soft and fluffy with just the right amount of sweet.</p>
+                          <button type="button" class="btn btn-warning">Full recipe</button>
 
                         </div>
 
@@ -212,11 +215,11 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                       <div class="card" style="width: 300px;">
-                        <img src="images/f.jpg" class="card-img-top">
+                        <img src="images/salmon--fishcakes.jpg" class="card-img-top">
                         <div class="card-body">
-                          <h4 class="card-title">Why you should use skin masks ?</h4>
-                          <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                          <button type="button" class="btn btn-warning">Read More</button>
+                          <h4 class="card-title">Salmon fishcakes</h4>
+                          <p class="card-text">Most of us don't eat enough oily fish and as a great surce of omega 3 and 6, salmon is a great ingredient to use. If you want to do more than just baking fish fillets, try making these salmon fishcakes with dhill. You get to choose how fishy you want them to be!</p>
+                          <button type="button" class="btn btn-warning">Full recipe</button>
                         </div>
                       </div>
                     </div>
@@ -262,7 +265,7 @@
       </div>
       <div class="col-sm-3 col-md-3">
         <h5> Contact</h5>
-        <a href="#">About Us and Contact</a><br>
+        <a href="./Pages/about.html">About Us and Contact</a><br>
         <a href="#"> Careers </a> <br>
       </div>
 
